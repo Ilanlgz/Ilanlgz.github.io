@@ -1,0 +1,106 @@
+/* Styles généraux */
+body { 
+    background-color: #212529;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #212529;
+    
+    /* Propriétés de l'image de fond */
+    background-image: url('bri.jpg');
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Container plus compact */
+.container {
+    background-color: rgba(255, 255, 255, 0.586);
+    max-width: 500px;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 0;
+}
+
+/* Titres plus compacts */
+h1 {
+    margin-top: 0;
+    padding-top: 5px;
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-top: 5px;
+    margin-left: 220px;
+    color: rgb(255, 6, 6);
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+#label {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    height: auto;
+    padding: auto;
+    
+}
+/* Groupes de formulaire plus compacts */
+.form-group {
+    margin-bottom: 2px;
+    padding: 1px;
+}
+
+/* Formulaire sans padding supplémentaire */
+form {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 5px;
+    margin: 0;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+/* Champs de saisie plus compacts */
+input[type="text"], select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ced4da00;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 3px;
+    height: 30px;
+}
+
+/* Style des boutons radio plus compact */
+.form-check {
+    margin-bottom: 5px;
+}
+
+/* Bouton plus compact */
+.button, input[type="submit"] {
+    padding: 8px 15px;
+    margin-left: 135px;
+    color: rgb(246, 246, 246);
+    border-radius: 10px;
+    background-color: blue;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Message de confirmation plus compact */
+.confirmation {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 14px;
+}
